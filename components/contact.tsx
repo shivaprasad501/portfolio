@@ -18,11 +18,11 @@ emailjs.sendForm(
   e.target as HTMLFormElement,
   process.env.NEXT_PUBLIC_PUBLIC_KEY!
 )
-.then((result) => {
+.then(() => {
           alert('Message sent successfully!')
           setformdata({name:'',email:'',message:""})
         },
-        (error) => {
+        () => {
           alert('An error occurred, please try again.')
         }
       )
