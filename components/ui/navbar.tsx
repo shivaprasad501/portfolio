@@ -8,8 +8,8 @@ const Navbar = () => {
   const navItems = ['Home', 'About', 'Projects', 'Contact']
 
   return (
-    <div className='flex justify-between items-center lg:px-50 sm:px-20 md:px-30 px-10 pt-5 '>
-      <div className='font-bold text-3xl text-blue-500'><Link href='/'>Shiva</Link></div>
+    <div className='flex justify-between items-center lg:px-50 sm:px-20 md:px-30 px-5 pt-10 gap-5 '>
+      <div className='font-bold text-2xl text-blue-500'><Link href='/'>Shiva</Link></div>
       <div className='flex justify-center items-center sm:gap-10 gap-x-3 font-bold'>
         {navItems.map((item) => (
           <a

@@ -4,8 +4,8 @@ import Skillwrapper from './ui/skillwrapper'
 
 const Skills = () => {
   return (
-    <div className='sm:my-10 my-5 mx-20  '>
-      <div className="sm:text-2xl text-base font-bold my-4">
+    <div className='sm:m-10 m-5 md:mx-20 '>
+      <div className="sm:text-2xl text-lg font-bold my-5">
         Technologies and tools that I use to create websites.
       </div>
       <div className='sm:flex  sm:gap-10'>
