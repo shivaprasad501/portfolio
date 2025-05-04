@@ -30,7 +30,7 @@ emailjs.sendForm(
 
   return (
     <div id='Contact'>
-        <div className='text-4xl text-center mt-30 font-bold'>   Let's connect</div>
+        <div className='text-4xl text-center mt-30 font-bold'>   Let&apos;s connect</div>
      
     <div className='grid grid-cols-1 md:grid-cols-2 justify-center items-center mx-10 sm:mx-30 gap-10 mt-20' >
         <div className='flex flex-col md:items-start justify-center items-center space-y-4'>
@@ -43,7 +43,7 @@ emailjs.sendForm(
           Download Resume
         </a>
         <p className="text-gray-400 px-10 sm:px-0 sm:pr-50">
-          Feel free to download my resume and reach out via the contact form. I'm open to new opportunities and would love to connect!
+          Feel free to download my resume and reach out via the contact form. I&apos;m open to new opportunities and would love to connect!
         </p>
         </div>
         <form onSubmit={sendEmail}  className='max-w-md'>

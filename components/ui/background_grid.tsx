@@ -24,7 +24,7 @@ export function GridBackground() {
                 </div>
 
                 <div className="text-white text-sm sm:text-xl  text-center  sm:max-w-200 px-10 ">
-                I'm a full-stack developer focused on building scalable, high-performance applications with a seamless user experience.
+                I&apos;m a full-stack developer focused on building scalable, high-performance applications with a seamless user experience.
                 </div >
                 <div className="text-center mt-3 sm:mt-0">
                     <Button text="See my work" />
